@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mua Này Nọ</title>
+        <style>
+            body{
+                height: 1500px;
+                background-color:rgb(255, 245, 224);
+            }
+            p,button{
+                font-family: Courier New;
+            }
+            .header{
+                position: fixed;
+                top: 10px;
+                left: 8px;
+                right: 8px;
+                height: 100px;
+                z-index: 100;
+
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                border: 1px solid black;
+                background-color: rgb(190, 173, 250);
+            }
+            .brandidentity{
+                display: flex;
+                flex: 1;
+                align-items: center;
+            }
+            .logo{
+                height: 80px;
+                margin-left: 8px;
+                margin-right: 8px;
+                border: 1px solid black;
+                border-radius: 10px;
+            }
+            .name{
+                width: 500px;
+                font-size: 30px;
+                font-weight: 700;
+            
+            }
+            .contact{ 
+                display: flex;
+                width: 300px;
+                justify-content: space-between;
+                margin-right: 50px;
+                
+            }
+            .ig,
+            .tt,
+            .web{
+                border: 1px solid black;
+                border-radius: 25px;
+                padding-top: 3px;
+                padding-bottom: 3px;
+                padding-left: 10px;
+                padding-right: 10px;
+                font-weight: 700;
+                background-color: rgb(255, 245, 224);
+            }
+            .link{
+                text-decoration: none;
+                color: black;
+            }
+
+            .content{
+                margin-top: 150px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                column-gap: 30px;
+                row-gap: 30px;
+            }
+            .note{
+                background-color:rgb(190, 173, 250);
+                height: 220px;
+                position: relative;
+                border: 1px solid black;
+            }
+            .numbernote{
+                margin-top: 5px;
+                margin-left: 5px;
+            }
+            .numbernote-button{
+                background-color: rgb(255, 248, 201);
+                border: 1px solid black;
+                border-radius: 10px;
+                font-weight: 700;
+            }
+            .linksp{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                
+            }
+            .linkdan{
+                text-decoration: none;
+            }
+            .sp{
+                width: 130px;
+                border: 1px solid black;
+            }
+            .divsp{
+                margin-top: 8px;
+            }
+            .tensp{
+                font-family: Courier New; 
+                font-size: 13px;
+                width: 130px;
+                text-align: center;
+                color: black;
+                font-weight: 700;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="brandidentity">
+                <div>
+                    <img class="logo" src="logo.png">
+                </div>
+                <div>
+                    <p class="name">Sốp Ping Khom?</p>
+                </div>
+            </div>
+            
+            <div class="contact">
+                <div>
+                    <a class="link" href="https://www.instagram.com/muidaugio/" target="_blank">
+                        <button class="ig">I Gờ</button>
+                    </a>
+                </div>
+                <div>
+                    <a class="link" href="https://www.tiktok.com/@muidaugio" target="_blank">
+                        <button class="tt">Tóp Tóp</button>
+                    </a>
+                    
+                </div>
+                <div>
+                    <a class="link" href="https://www.muidaugio.com/" target="_blank">
+                        <button class="web">Bờ lóc</button>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="content">
+            <div class="note">
+                <div class="numbernote">
+                        <a class="linkdan" href="https://s.shopee.vn/6KjkZ3sBuh" target="_blank">
+                            <div class="linksp">
+                                <div> 
+                                    <button class="numbernote-button">1</button>
+                                </div>
+                                <div class="divsp">
+                                    <img class="sp" src="link/thepresentdayplanner.png">
+                                </div>
+                                <div class="tensp">
+                                    Sổ kế hoạch The Present Day
+                                </div>
+                            </div>
+                        </a>
+                </div>
+            </div>
+
+            <div class="note">
+                <div class="numbernote">
+                        <a class="linkdan" href="https://s.shopee.vn/6zzRMNRENW" target="_blank">
+                            <div class="linksp">
+                                <div> 
+                                    <button class="numbernote-button">2</button>
+                                </div>
+                                <div class="divsp">
+                                    <img class="sp" src="link/motcuonsachvechunghiatoigian.png">
+                                </div>
+                                <div class="tensp">
+                                    Một Cuốn Sách Về Chủ Nghĩa Tối Giản
+                                </div>
+                            </div>
+                        </a>
+                </div>
+            </div>
+
+            <div class="note">
+                <div class="numbernote">
+                        <a class="linkdan" href="https://s.shopee.vn/7UvhuIU8Qh" target="_blank">
+                            <div class="linksp">
+                                <div> 
+                                    <button class="numbernote-button">3</button>
+                                </div>
+                                <div class="divsp">
+                                    <img class="sp" src="link/giaya4.png">
+                                </div>
+                                <div class="tensp">
+                                    Giấy A4 Thiên Long
+                                </div>
+                            </div>
+                        </a>
+                </div>
+            </div>
+
+            <div class="note">
+                <div class="numbernote">
+                        <a class="linkdan" href="https://s.shopee.vn/2VX1xAycDl" target="_blank">
+                            <div class="linksp">
+                                <div> 
+                                    <button class="numbernote-button">4</button>
+                                </div>
+                                <div class="divsp">
+                                    <img class="sp" src="link/kiepnaotacungtimthaynhau.png">
+                                </div>
+                                <div class="tensp">
+                                    Kiếp Nào Ta Cũng Tìm Thấy Nhau
+                                </div>
+                            </div>
+                        </a>
+                </div>
+            </div>
+
+            <div class="note">
+                <div class="numbernote">
+                        <a class="linkdan" href="https://s.shopee.vn/6V3AicCEcQ" target="_blank">
+                            <div class="linksp">
+                                <div> 
+                                    <button class="numbernote-button">5</button>
+                                </div>
+                                <div class="divsp">
+                                    <img class="sp" src="link/bupsenxanh.png">
+                                </div>
+                                <div class="tensp">
+                                    Búp Sen Xanh
+                                </div>
+                            </div>
+                        </a>
+                </div>
+            </div>
+
+            <div class="note">
+                <div class="numbernote">
+                        <a class="linkdan" href="https://s.shopee.vn/5fU3jUIe41" target="_blank">
+                            <div class="linksp">
+                                <div> 
+                                    <button class="numbernote-button">6</button>
+                                </div>
+                                <div class="divsp">
+                                    <img class="sp" src="link/ghexoaydeli.png">
+                                </div>
+                                <div class="tensp">
+                                    Ghế Xoay Deli
+                                </div>
+                            </div>
+                        </a>
+                </div>
+            </div>
+
+            <div class="note">
+                <div class="numbernote">
+                        <a class="linkdan" href="https://s.shopee.vn/50EMwIxu6t" target="_blank">
+                            <div class="linksp">
+                                <div> 
+                                    <button class="numbernote-button">7</button>
+                                </div>
+                                <div class="divsp">
+                                    <img class="sp" src="link/maylamsuahatbear.png">
+                                </div>
+                                <div class="tensp">
+                                    Máy Làm Sữa Hạt Bear
+                                </div>
+                            </div>
+                        </a>
+                </div>
+            </div>
+
+            <div class="note">
+                <div class="numbernote">
+                        <a class="linkdan" href="https://s.shopee.vn/pgzPIXGz" target="_blank">
+                            <div class="linksp">
+                                <div> 
+                                    <button class="numbernote-button">8</button>
+                                </div>
+                                <div class="divsp">
+                                    <img class="sp" src="link/vocongklong.png">
+                                </div>
+                                <div class="tensp">
+                                    Vở Còng KLONG
+                                </div>
+                            </div>
+                        </a>
+                </div>
+            </div>
+
+            <div class="note">
+                <div class="numbernote">
+                        <a class="linkdan" href="https://s.shopee.vn/3q2PYvVcSN" target="_blank">
+                            <div class="linksp">
+                                <div> 
+                                    <button class="numbernote-button">9</button>
+                                </div>
+                                <div class="divsp">
+                                    <img class="sp" src="link/vocarodangayklong.png">
+                                </div>
+                                <div class="tensp">
+                                    Vở Caro Dán Gáy KLONG
+                                </div>
+                            </div>
+                        </a>
+                </div>
+            </div>
+
+            <div class="note">
+                <div class="numbernote">
+                        <a class="linkdan" href="https://s.shopee.vn/5VAdYG5LUM" target="_blank">
+                            <div class="linksp">
+                                <div> 
+                                    <button class="numbernote-button">10</button>
+                                </div>
+                                <div class="divsp">
+                                    <img class="sp" src="link/butlongmau.png">
+                                </div>
+                                <div class="tensp">
+                                    Bút Lông Màu Thiên Long
+                                </div>
+                            </div>
+                        </a>
+                </div>
+            </div>
+
+            <div class="note">
+                <div class="numbernote">
+                        <a class="linkdan" href="https://s.shopee.vn/9zd2v0bxUX" target="_blank">
+                            <div class="linksp">
+                                <div> 
+                                    <button class="numbernote-button">11</button>
+                                </div>
+                                <div class="divsp">
+                                    <img class="sp" src="link/postcarddecor.png">
+                                </div>
+                                <div class="tensp">
+                                    Postcard Decor Tường
+                                </div>
+                            </div>
+                        </a>
+                </div>
+            </div>
+
+            <div class="note">
+                <div class="numbernote">
+                        <a class="linkdan" href="https://s.shopee.vn/6pg19dGuXN" target="_blank">
+                            <div class="linksp">
+                                <div> 
+                                    <button class="numbernote-button">12</button>
+                                </div>
+                                <div class="divsp">
+                                    <img class="sp" src="link/suachongnangcocoon.png">
+                                </div>
+                                <div class="tensp">
+                                    Sữa Chống Nắng Cocoon
+                                </div>
+                            </div>
+                        </a>
+                </div>
+            </div>
+
+            <div class="note">
+                <div class="numbernote">
+                        <a class="linkdan" href="https://s.shopee.vn/1B1eP0unRM" target="_blank">
+                            <div class="linksp">
+                                <div> 
+                                    <button class="numbernote-button">13</button>
+                                </div>
+                                <div class="divsp">
+                                    <img class="sp" src="link/ruotbutnuocthienlong.png">
+                                </div>
+                                <div class="tensp">
+                                    Ruột Bút Nước Thiên Long
+                                </div>
+                            </div>
+                        </a>
+                </div>
+            </div>
+
+            <div class="note">
+                <div class="numbernote">
+                        <a class="linkdan" href="https://s.shopee.vn/5KrDMDLRlB" target="_blank">
+                            <div class="linksp">
+                                <div> 
+                                    <button class="numbernote-button">14</button>
+                                </div>
+                                <div class="divsp">
+                                    <img class="sp" src="link/butbithienlong1.png">
+                                </div>
+                                <div class="tensp">
+                                    Bút bi Thiên Long TL-093
+                                </div>
+                            </div>
+                        </a>
+                </div>
+            </div>
+
+            <div class="note">
+                <div class="numbernote">
+                        <a class="linkdan" href="https://s.shopee.vn/1LL4baaEW8" target="_blank">
+                            <div class="linksp">
+                                <div> 
+                                    <button class="numbernote-button">15</button>
+                                </div>
+                                <div class="divsp">
+                                    <img class="sp" src="link/daugoibuoicocoon.png">
+                                </div>
+                                <div class="tensp">
+                                    Dầu Gội Bưởi Cocoon
+                                </div>
+                            </div>
+                        </a>
+                </div>
+            </div>
+
+            <div class="note">
+                <div class="numbernote">
+                        <a class="linkdan" href="https://s.shopee.vn/2VX25RpaGW" target="_blank">
+                            <div class="linksp">
+                                <div> 
+                                    <button class="numbernote-button">16</button>
+                                </div>
+                                <div class="divsp">
+                                    <img class="sp" src="link/feynman.png">
+                                </div>
+                                <div class="tensp">
+                                    Phương Pháp Học Tập Feynman
+                                </div>
+                            </div>
+                        </a>
+                </div>
+            </div>
+            <div class="note">
+                <div class="numbernote">
+                    <p style="font-weight: 700;">
+                        Rất xin cảm ơn các bác đã xem và đã mua (nếu có) ^3^
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
